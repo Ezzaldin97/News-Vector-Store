@@ -1,0 +1,4 @@
+# News Vector Store
+
+## Objective:
+

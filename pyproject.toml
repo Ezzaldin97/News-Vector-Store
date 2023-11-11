@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "llm-data-generator"
+version = "0.1.0"
+description = "Automated Workflow to Generate Data for Finetuning LLMs"
+authors = ["Ezzaldin97 <kingtal632@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "llm_data_generator"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+python-dotenv = "1.0.0"
+requests = "2.30.0"
+transformers = "^4.31.0"
+prefect = "^2.10.0"
+pydantic = "^2.2.0"
+pyyaml = "^6.0.1"
+qdrant-client = "^1.4.0"
+torch = "^2.0.1"
+langchain = "^0.0.331"
+openai = "0.27.8"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,14 @@
+dev/
+
+data/db/
+data/news/
+
+logs/
+
+sts/
+
+aragpt/
+
+.env
+
+**/__pycache__/
