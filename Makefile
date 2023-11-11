@@ -8,4 +8,4 @@ qdrant:
 
 # run the pipeline pass date as parameter to get news of (date-1)
 run:
-	poetry run python main.py --date $(ref_dt)
+	poetry run python main.py --date $(date)
